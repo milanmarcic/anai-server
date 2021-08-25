@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/iskustva-korisnikas",
+      "handler": "iskustva-korisnika.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/iskustva-korisnikas/count",
+      "handler": "iskustva-korisnika.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/iskustva-korisnikas/:id",
+      "handler": "iskustva-korisnika.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/iskustva-korisnikas",
+      "handler": "iskustva-korisnika.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/iskustva-korisnikas/:id",
+      "handler": "iskustva-korisnika.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/iskustva-korisnikas/:id",
+      "handler": "iskustva-korisnika.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
