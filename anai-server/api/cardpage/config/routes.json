@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cardpages",
+      "handler": "cardpage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cardpages/count",
+      "handler": "cardpage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cardpages/:id",
+      "handler": "cardpage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cardpages",
+      "handler": "cardpage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cardpages/:id",
+      "handler": "cardpage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cardpages/:id",
+      "handler": "cardpage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
